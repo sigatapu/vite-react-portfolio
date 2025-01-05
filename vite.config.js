@@ -8,4 +8,5 @@ export default defineConfig({
     host: '0.0.0.0', // Allow access from outside localhost
     port: 3000, // Or any other port of your choice
   },
+  base:'portfolio4',
 })
