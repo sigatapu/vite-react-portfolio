@@ -1,0 +1,86 @@
+@media(max-width:480px){
+     .about{
+        flex-direction: column;
+     }
+     .image{
+        order: 1;
+     }
+     .details{
+        order: 2;
+     }
+     nav{
+        width: 90%;
+        /* border: 2px solid green; */
+        gap: 2px;
+        padding: 10px;
+        padding-top: 22px;
+     }
+
+     .active,.not-active{
+        font-size: 12px;
+        
+     }
+
+     .card{
+      height: 60px;
+      width: 60px;
+      padding: 50px;
+      margin: 5px;
+     }
+     .card p{
+      display: none;
+     }
+     .skill{
+      height: 50vh;
+      /* padding: 30px; */
+      /* padding-bottom: 60px; */
+      padding-top: 0;
+      margin-top: 20%;
+
+     }
+
+    .project-card{
+      height: 150px;
+      width:150px
+      
+    }
+    .project-image{
+      width: 150px;
+      height: 80px;
+    }
+   
+
+    .service-card{
+      height: 150px;
+      width:150px
+      
+    }
+    }
+
+
+
+
+
+
+
+
+
+
+    @media(max-width:700px){
+        .about{
+        flex-direction: column;
+     }
+     .image{
+        order: 1;
+     }
+     .details{
+        order: 2;
+     }
+   
+    }
+
+
+
+
+
+   
